@@ -27,14 +27,12 @@
 <div class="ct"><button onclick="login()">確認</button></div>
 
 <script>
-    // 檢查帳密
 function login(){
     $.post("api/chk_ans.php",{ans:$("#ans").val()},(chk)=>{
         if(parseInt(chk)){
             $.post("api/chk_pw.php",
                    {table:'member',acc:$("#acc").val(),pw:$("#pw").val()},
                    (res)=>{
-                       // parseInt 資料型態
                         if(parseInt(res)){
                             location.href="index.php";
                         }else{

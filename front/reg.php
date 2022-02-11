@@ -44,6 +44,7 @@ function chkAcc(){
         }
     })
 }
+
 function reg(){
     let data={
         acc:$("#acc").val(),
@@ -64,4 +65,6 @@ function reg(){
         }
     })
 }
-</script> 
+
+
+</script>
