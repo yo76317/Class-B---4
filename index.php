@@ -17,7 +17,7 @@
     <iframe name="back" style="display:none;"></iframe>
     <div id="main">
         <div id="top">
-            <a href="back.php">
+            <a href="?">
                 <img src="./icon/0416.jpg">
             </a>
             <div style="padding:10px;">

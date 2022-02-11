@@ -1,7 +1,6 @@
 <div class="ct">
     <button onclick="location.href='?do=add_admin'">新增管理員</button>
 </div>
-
 <table class="all ct">
     <tr class="tt">
         <td>帳號</td>
@@ -31,4 +30,5 @@
     <?php
     }
     ?>
-</table> 
+</table>
+
