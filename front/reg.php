@@ -32,6 +32,7 @@
     <button onclick="reg()">註冊</button>
     <button onclick="reset()">重置</button>
 </div>
+
 <script>
 function chkAcc(){
     let acc=$("#acc").val()
@@ -63,4 +64,4 @@ function reg(){
         }
     })
 }
-</script>
+</script> 
