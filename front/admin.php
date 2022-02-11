@@ -12,4 +12,4 @@
         <td class="pp"><input type="text" name="ans" id="ans"></td>
     </tr>
 </table>
-<div class="ct"><button onclick="login()">確認</button></div> 
+<div class="ct"><button onclick="login()">確認</button></div>

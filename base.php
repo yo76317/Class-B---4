@@ -90,7 +90,7 @@ class DB{
         return $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     }
     function math($math,$col,...$arg){
-        $sql="SELECT $math(`$col`) FROM $this->table ";
+        $sql="SELECT $math($col) FROM $this->table ";
         switch(count($arg)){
             case 1:
                 if(is_array($arg[0])){
@@ -112,7 +112,7 @@ class DB{
             break;
         
         }
-
+        //echo $sql;
         return $this->pdo->query($sql)->fetchColumn();
     }
 
@@ -127,5 +127,7 @@ function dd($array){
     print_r($array);
     echo "</pre>";
 }
+
+$Mem=new DB("member");
 
 ?>
